@@ -1,8 +1,0 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Environment variables
-.env.local
-.env.*.local
