@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO.jsx';
 import { motion } from 'framer-motion';
 import { FaLinkedinIn, FaTwitter, FaHeart, FaHandsHelping, FaArrowRight } from 'react-icons/fa';

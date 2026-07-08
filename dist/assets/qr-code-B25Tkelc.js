@@ -1,0 +1,1 @@
+var e=``+new URL(`qr-code-B9JWwxPt.png`,import.meta.url).href;export{e as t};

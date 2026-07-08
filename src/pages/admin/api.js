@@ -1,6 +1,6 @@
 export const getApiUrl = () => {
   // Use VITE_API_URL from environment variables, with a fallback for local development
-  return import.meta.env.VITE_API_URL || 'https://ngo-b-1.onrender.com';
+  return import.meta.env.VITE_API_URL || 'https://localhost:5000/api';
 };
 
 export const apiRequest = async (endpoint, options = {}) => {
