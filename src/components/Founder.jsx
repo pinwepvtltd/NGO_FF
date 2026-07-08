@@ -1,12 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import member1 from '../assets/images/Member1.webp';
+import member2 from '../assets/images/Member2.webp';
 
 const founders = [
   {
     name: 'Mr. Abhijeet Singh Sanga',
     role: 'Member of UP Legislative Assembly',
     description: 'He represents the Bithoor assembly. A dedicated leader striving for the development and welfare of the community.',
-    image: '/src/assets/images/Member1.webp',
+    image: member1,
     tag: 'Community Leader',
     // Card background aur text color
     cardClass: 'from-[#F97316] to-[#FDBA74] text-slate-900',
@@ -18,7 +20,7 @@ const founders = [
     name: 'Manoj Kumar Bhadauria',
     role: 'Advocate, Educationist & Social Worker',
     description: 'Chairman Shriram Group of Education. Passionate about empowering society through quality education and social service.',
-    image: '/src/assets/images/Member2.webp',
+    image: member2,
     tag: 'Social Worker',
     // Card background aur text color
     cardClass: 'from-[#0B2F78] to-[#1D4ED8] text-white',
